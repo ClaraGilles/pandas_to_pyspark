@@ -15,3 +15,4 @@ agg_df = df.groupby('department').agg({
 }).reset_index()
 
 print(agg_df)
+print()
