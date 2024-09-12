@@ -14,5 +14,5 @@ agg_df = df.groupby('department').agg({
     'age': ['mean', 'max']
 }).reset_index()
 
-print(agg_df)
-print()
+
+print(agg_df.to_string())
